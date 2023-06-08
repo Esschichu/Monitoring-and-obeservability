@@ -1,0 +1,5 @@
+Sandbox:
+
+kubectl config set-context arn:aws:eks:eu-west-1:767998910116:cluster/devopsthehardway-cluster
+kubectl config use-context arn:aws:eks:eu-west-1:767998910116:cluster/devopsthehardway-cluster
+aws eks --region eu-west-1 update-kubeconfig --name devopsthehardway-cluster
